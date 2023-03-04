@@ -10,5 +10,4 @@ for num in range(100, 401):
     if ((a[0] % 2 == 0 or a[0] % 2 == 2) and (a[1] % 2 == 0 or a[1] % 2 == 2) and (a[2] % 2 == 0 or a[2] % 2 == 2)):
         for j in a:
             c += str(j)
-        print(c)
-
+        print(int(c))
