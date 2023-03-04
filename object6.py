@@ -8,6 +8,6 @@ if (num1 == 0 or num2 == 0):
 
 else:
     x = num1 if num1 < num2 else num2
-    for i in range(1, x+1):
+    for i in range(0, x+1):
         if (num1 % i == 0 and num2 % i == 0):
             print(f"{i} is a common divisor of {num1}  and {num2}")
