@@ -4,7 +4,7 @@
 x = int(input("Enter the first number of a range:\n"))
 y = int(input("Enter the second number of a range:\n"))
 c = False
-for i in range(1,10 , 1):
+for i in range(1,10):
     a = i*i-1
     for j in range(x,y+1):
         if(a == j):
